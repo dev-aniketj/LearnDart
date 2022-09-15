@@ -23,5 +23,7 @@ void main() {
     case 7:
       print("Seven");
       break;
+    default:
+      print("Invalid Number");
   }
 }
