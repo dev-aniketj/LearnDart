@@ -5,6 +5,10 @@ void main() {
   List<dynamic> li2 = [2, 4, 'a', true];
   print(li2);
 
+  for (var i in li2) {
+    print(i);
+  }
+
   // Set
   Set<int> s1 = {3, 1, 1, 2, 4, 2, 3};
   print(s1);
